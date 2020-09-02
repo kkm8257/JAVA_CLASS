@@ -1,4 +1,4 @@
-package VOCA_Pack;
+package VOCA_Pack_Thread;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -7,6 +7,7 @@ public class main {
 
 	public static void main(String[] args) {
 
+		
 		
 		//패키지 메소드 클래스 파일저장을 활용해서
 		//영어 단어장만들기
@@ -51,6 +52,7 @@ public class main {
 			}
 			else if(numinput.equals("6")) {
 				ctr.game(myVoca);
+				
 			}
 			
 			
